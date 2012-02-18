@@ -1,0 +1,131 @@
+#header-bar
+{
+	height:100px;
+	width: 55%;
+	/*background-color: #d5d5d5;*/
+	background-color: #000000;
+	background: url("../images/menu/bkgd.jpg") 0 0 repeat-x;	
+	margin: 0;
+	padding: 0 305px;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 1;
+}
+
+#header-logo
+{
+	background: url("../images/logo.png") no-repeat;
+	margin-left: 150px;
+	height: 150px;
+	width:320px;
+	position: fixed;
+	top: -20px;
+	left: -160px;
+	z-index: 2;
+}
+
+#menu
+{
+	height:100px;	
+	width: 600px;
+	margin:0 auto;
+}
+
+.menu-item ,.menu-item-first
+{
+	width:120px;
+	height: 100px;
+	float:left;	
+	text-decoration:none;
+}
+
+.menu-item
+{
+	background: url("../images/menu/menu_item.png");
+}
+
+.menu-item:hover, .menu-item-first:hover
+{
+	background: url("../images/menu/menu_over.png");
+	color: #fff;
+}
+
+.menu-item-title, .menu-item-subtitle
+{
+	width:118px;	
+	padding: 0 4px 0 4px;
+	text-align: center;	
+}
+
+.menu-item-title
+{
+	font-family: AvQuest;
+	font-size: 25px;
+	color: #fff;	
+	height:35px;
+	padding-top: 5px;
+	letter-spacing: 0;
+}
+
+.menu-item-subtitle
+{
+	font-family: Discognate;
+	font-size: medium;	
+	letter-spacing: 2px;
+	line-height: 16px;
+	color: #c5c5c5;
+	height:60px;
+}
+.menu-item-active
+{
+	background: url("../images/menu/bkgd_over.jpg") 0 0 repeat-x;
+}
+
+ul, li
+{
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+
+.submenu
+{
+	display:none;
+	border-right:1px solid #9b0202;
+	border-bottom:1px solid #9b0202;
+	border-left:1px solid #9b0202;
+	position:fixed;
+	top:100px;
+	font-family:Discognate;
+	font-size:1.1em;
+}
+
+.submenu li
+{
+	/*background:#493e3b;*/
+	background:url("./drecker-theme/images/ui-bg_fine-grain_25_000000_60x60.png") 0 0 repeat;
+}
+
+.submenu li a
+{
+	color:#c5c5c5; 
+	text-decoration:none; 
+	padding:10px; 
+	display:block;
+}
+
+.submenu li.alt
+{
+	background:#180808;
+}
+
+.inferno_menu
+{	
+	left:475px;
+}
+
+.about_menu
+{	
+	left:835px;
+}

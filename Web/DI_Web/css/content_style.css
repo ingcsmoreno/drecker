@@ -1,0 +1,217 @@
+html {
+	background: url("../images/background.jpg") 0 0 no-repeat fixed;
+	height:99%;
+	overflow: auto;
+}
+
+body {
+	height:98%;
+	padding: 5px;
+	position: relative; 
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 2px;
+}
+
+@font-face {
+    font-family: "AvQuest";
+    src: url("../fonts/AvQest.ttf");
+}
+
+@font-face {
+    font-family: "Discognate";
+    src: url("../fonts/Discognate.ttf");
+}
+
+#right-content
+{
+	font-family: Discognate;
+    font-size: 1.2em;
+    position: fixed;
+    width: 245px;
+    z-index: 5;
+}
+
+#center-content
+{
+	width:700px;
+	/*margin:0 auto 0 auto;*/
+	font-family: Discognate;
+	font-size:1.1em;	
+	letter-spacing: 2px;
+	padding: 0 0 0 250px;
+	z-index: 4;
+}
+
+.semi-transparent
+{
+	/* This works in IE 8 & 9 too */
+    /* ... but also 5, 6, 7 */
+    filter: alpha(opacity=90);
+    /* Older than Firefox 0.9 */
+    -moz-opacity:0.9;
+    /* Safari 1.x (pre WebKit!) */
+   -khtml-opacity: 0.9;
+
+   /* Modern!
+    /* Firefox 0.9+, Safari 2?, Chrome any?
+    /* Opera 9+, IE 9+ */
+    opacity: 0.9;
+}
+
+.rounded-box 
+{
+	background:#d40000;
+	margin:0 auto;
+	padding:0;
+	border-radius:7px;
+	-moz-border-radius: 7px; 
+	-webkit-border-radius : 7px;
+}  
+
+.content-text, .rounded-box p 
+{	
+	color:#fff;
+}
+
+.rounded-box p 
+{
+	margin:0;
+	padding:10px;
+}  
+
+.post-title h2
+{
+	margin-bottom:10px;	
+	font-family:AvQuest;
+}
+
+.post-title h2, h3
+{
+	color:#fff;
+	padding-left:5px;
+	margin:0px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.left-title h3
+{
+	color:#fff;
+	padding-left:5px;
+	margin:0px;
+	font-weight: bold;
+	text-transform: capitalize;	
+	font-family:AvQuest;
+}
+
+.post-title, .left-title
+{
+	/*background: #000000;*/	
+	background: url("./drecker-theme/images/ui-bg_fine-grain_25_000000_60x60.png") 0 0 repeat;
+	margin-top:120px;	
+	padding:5px;
+}
+
+.post
+{
+	background: #555555;
+	width:98%;
+	padding: 5px;
+	text-align: justify;
+}
+
+.left-post
+{
+	background: #555555;	
+	width:90%;
+	padding: 5px;
+}
+
+.post-footer
+{
+	text-align: right;
+}
+
+.img-text
+{
+	float:right;
+}
+
+.button
+{
+	padding: 0 0 0 0;
+}
+
+.dialog_link
+{
+	padding: 0 .5em .1em 20px;
+	text-decoration: none;
+	position: relative;
+}
+
+.dialog_link span.ui-icon 
+{
+	margin: 0 5px 0 0;
+	position: absolute;
+	left: .2em;
+	top: 50%;
+	margin-top: -8px;
+}			
+
+.XLink
+{
+	color:white;
+	text-decoration: none;
+}
+	
+.XLink:hover
+{
+	text-shadow: 0 0 2px white;
+}
+
+.downIcon, .bugIcon
+{
+	width:16px;
+	height:16px;
+	float:left;
+	padding-right:4px;
+}
+
+.downIcon
+{
+	background: URL("../images/buttons/downloadx16.png") 0 0 no-repeat;
+}
+
+.bugIcon
+{
+	background: URL("../images/buttons/bugx16.png") 0 0 no-repeat;
+}
+	
+.filter-table
+{
+	color:#fff;
+	width:100%;
+	border-width:2px;
+}	
+
+td.left-row
+{
+	width:10%;
+	text-align:right;
+}
+.fill_parent
+{
+	width:100%;
+}
+	
+#footer
+{
+	position:relative;
+	bottom:0;
+	width:100%;
+	font-size:small;
+	font-weight: bold;
+	text-align: center;
+	color:#fff;
+}
